@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Quicklink QR",
+  "version": "1.0",
+  "description": "Input a link to generate a QR code to the link",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}

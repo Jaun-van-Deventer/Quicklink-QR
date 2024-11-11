@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quicklink QR</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="qrcode.min.js"></script>
+    <script src="qr-code-generator.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div id="main-container">
+      <h1>Quicklink QR</h1>
+      <div id="qrcode"></div>
+      <div class="box-input">
+        <div class="border">
+          <input
+            type="text"
+            name="text"
+            class="input"
+            placeholder="Name"
+            id="link"
+          />
+        </div>
+      </div>
+      <button id="generate" class="border">Generate QR</button>
+      <button id="download" style="display: none" class="border">
+        Download
+      </button>
+      <input
+        type="checkbox"
+        class="l"
+        class="theme-toggle"
+        id="theme-toggle"
+        title="Toggles light & dark"
+        aria-label="auto"
+        aria-live="polite"
+      />
+    </div>
+  </body>
+</html>

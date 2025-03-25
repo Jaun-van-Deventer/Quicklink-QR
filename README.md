@@ -1,5 +1,5 @@
 # Quicklink QR
-#### Video Demo:  <URL HERE https://youtu.be/MlO_NatY-uw>
+#### Video Demo: https://youtu.be/MlO_NatY-uw>
 #### Description: Quicklink QR is a Chrome extension that allows users to generate QR codes for any input link quickly. The generated QR code can be displayed within the extension popup and downloaded for later use. The extension also includes a dark mode feature.
 
 ## Table of Contents
